@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,900;1,400&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.navbar-toggler {
+    background-color: whitesmoke;
+}
+
+i.fa-solid{
+    cursor: pointer;
+}
+
+
+input[type='text']{
+    border-width: 0.2rem;
+}
+
+.nav-pills .nav-link.active{
+    background-color:rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+/* 
+rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+*/
+
+.card img{
+    width:inherit;
+    height: 10rem;
+    margin: auto;
+}
+
+.card-body{
+    padding: 0.3rem 0px 0px 0px;
+}
+.card-header{
+    background-color: #312823;
+    color: white;
+    font-style:oblique;
+    font-weight: 600;
+}
+
+.table{
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.table td{
+    text-align: center;
+    font-weight: 600;
+}
+.table td.houseGryffindor{
+    background-color: #7f0909;
+    color: white;
+}
+
+.table td.houseHufflepuff {
+    background-color: #dcaa49;
+    color: white;
+}
+.table td.houseRavenclaw {
+    background-color: #1c1f54;
+    color: white;
+}
+
+.table td.houseSlytherin {
+    background-color: #028446;
+    color: white;
+}
+
+.table td.houseGryffindor,.table td.houseHufflepuff,.table td.houseRavenclaw,.table td.houseSlytherin:hover{
+    color: white !important;
+}
+
+.table td i.fa-solid {
+    color: #028446;
+}
+.table td i.fa-xmark{
+    color: #7f0909;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
